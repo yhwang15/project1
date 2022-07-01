@@ -1,0 +1,34 @@
+1. both pairs fork repo on github
+(코드 복사 )
+
+2. both pair clone their repo to local
+ git clone <REPO URL>
+
+3. add pair's fork as remote
+git remote add pair <Repo URL for pairs fork>
+git remote -v
+
+4. commit your change to your local repo
+git add <change file>
+git commit -m 'change
+
+5. push your code to your remote origin
+git push origin master ( or other branch name)
+
+role 변경
+
+6. pull pairs' code to local repo
+git pull pair master(or other branch name)
+
+7. commit pair's change to local repo
+git add <change file>
+git commit -m 'change TOO'
+ 
+8.push pair code to pair's remote origin
+git push origin master (or other branch name)
+
+9. you pull latest version of pair's code
+git pull pair master (or oter brach name)
+
+````````
+
